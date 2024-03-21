@@ -61,5 +61,10 @@ namespace TaskTool
             }
             timerSideTime.Start();
         }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://naver.com/");
+        }
     }
 }
